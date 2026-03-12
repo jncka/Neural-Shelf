@@ -1,0 +1,23 @@
+{
+  "skill_name": "ux-ui-improvement",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Users say our signup form is confusing and hard to fill out. Improve the UX and accessibility of this form:\n\n<form>\n  <label>Username<input type=\"text\"></label>\n  <label>Password<input type=\"password\"></label>\n  <button>Submit</button>\n</form>",
+      "expected_output": "A revised form with clearer labels, proper input ids, accessible markup, focus styling, and maybe layout improvements",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Our top navigation looks crowded and doesn't work on mobile. Here's the code:\n\n<nav class=\"flex gap-4\">\n  <a href=\"/\">Home</a>\n  <a href=\"/about\">About</a>\n  <a href=\"/blog\">Blog</a>\n  <a href=\"/shop\">Shop</a>\n  <a href=\"/contact\">Contact</a>\n</nav>\n\nSuggest UX/UI improvements and provide updated markup or styles.",
+      "expected_output": "Recommendations for responsive hamburger or collapsible menu and spacing, with sample code",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "The checkout page feels overwhelming. What UX changes can we make to simplify it?",
+      "expected_output": "High-level advice on hierarchy, progressive disclosure, and clean design, possibly with layout suggestions",
+      "files": []
+    }
+  ]
+}
